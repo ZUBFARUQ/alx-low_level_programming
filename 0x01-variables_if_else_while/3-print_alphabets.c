@@ -11,14 +11,8 @@ int main(void)
 	while (c <= 'z')
 	{
 		putchar(c);
+		putchar(c-32);
 		c++;
-	}
-
-	char d = 'A';
-	while (d<='Z')
-	{
-		putchar(d);
-		d++;
 	}
 
 	putchar('\n');
