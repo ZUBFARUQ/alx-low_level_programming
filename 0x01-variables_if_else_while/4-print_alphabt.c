@@ -9,9 +9,9 @@ int main(void)
 {
 	char c = 'a';
 
-	while(c <= 'z')
+	while (c <= 'z')
 	{
-		if(c != 'e' && c != 'q')
+		if (c != 'e' && c != 'q')
 		{
 			putchar(c);
 		}
@@ -19,5 +19,5 @@ int main(void)
 	}
 
 	putchar('\n');
-	return(0);
+	return (0);
 }
