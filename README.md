@@ -1,1 +1,1 @@
-This is a a repository of low level programming intro
+ALX School low level programming
