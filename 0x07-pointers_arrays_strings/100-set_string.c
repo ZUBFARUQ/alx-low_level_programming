@@ -1,17 +1,14 @@
 #include "main.h"
-#include <stdio.h>
+#include <unistd.h>
 
 /**
- * set_string - sets the value of a pointer to a char
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
  *
- * @s: Double pointer
- *
- * @to: Pointer
- *
- * Return: Void
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
-
-void set_string(char **s, char *to)
+int _putchar(char c)
 {
-	*s = to;
+	return (write(1, &c, 1));
 }
